@@ -13,7 +13,7 @@
     "description": "Camarão Argentino Inteiro G congelado 1kg. Ultracongelado à bordo, o que mantém o seu sabor e suculência. Importado diretamente da Patagônia, o camarão argentino tem sabor adocicado e pode ser comparado ao camarão rosa brasileiro.",
     "price": 99.90,
     "imageSrc": "/produtos/2.png",
-    "destaque": false
+    "destaque": true
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "description": "Cubos de salmão fresco, ideais para sushi, sashimi e pratos criativos. Sabor suave e textura macia para uma experiência gastronômica excepcional.",
     "price": 80.00,
     "imageSrc": "/produtos/3.png",
-    "destaque": false
+    "destaque": true
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "description": "Tentáculos de polvo espanhol, conhecidos por sua textura firme e sabor intenso. Perfeitos para pratos sofisticados e culinária mediterrânea.",
     "price": 199.90,
     "imageSrc": "/produtos/4.png",
-    "destaque": false
+    "destaque": true
   },
   {
     "id": 5,

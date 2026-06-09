@@ -13,7 +13,7 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  title: "Peixaria Dinho",
+  title: "Dinho Peixaria",
   description: "A melhor peixaria do Brasil.",
 };
 

@@ -1,6 +1,9 @@
+/* eslint-disable react-hooks/refs */
 "use client"
 
 import Image from "next/image"
+import React from "react"
+import Autoplay from "embla-carousel-autoplay"
 
 import {
   Carousel,
@@ -17,20 +20,30 @@ const carrosselImagens = [
 ]
 
 export default function Carrossel() {
+  // 1. Instanciação estável do plugin de Autoplay
+  const plugin = React.useRef(
+    Autoplay({ delay: 3000, stopOnInteraction: true })
+  )
+
   return (
     <section className="w-full flex justify-center">
-        <Carousel className="w-full relative">
+        {/* 2. Associação do plugin e eventos de controle por hover */}
+        <Carousel
+          plugins={[plugin.current]}
+          className="w-full relative"
+          onMouseEnter={() => plugin.current.stop()}
+          onMouseLeave={() => plugin.current.reset()}
+        >
             <CarouselContent>
-                {carrosselImagens.map((imagem,index)=>(
+                {carrosselImagens.map((imagem, index) => (
                     <CarouselItem key={index}>
                         <div className="relative w-full h-[300px] md:h-[450px] overflow-hidden">
                             <Image
-                            src={imagem.src}
-                            alt={imagem.alt}
-                            fill
-                            className="object-cover"
-                            priority={index===0}
-
+                              src={imagem.src}
+                              alt={imagem.alt}
+                              fill
+                              className="object-cover"
+                              priority={index === 0}
                             />
                         </div>
                     </CarouselItem>

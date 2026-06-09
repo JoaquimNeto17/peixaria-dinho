@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "title": "Tentáculos de Polvo Nacional",
+    "description": "Tentáculos de polvo nacional com textura única e sabor distintivo. Ideal para pratos tradicionais e culinária regional.",
+    "price": 139.90,
+    "imageSrc": "/produtos/1.png",
+    "destaque": true
+  },
+  {
+    "id": 2,
+    "title": "Camarão Argentino",
+    "description": "Camarão Argentino Inteiro G congelado 1kg. Ultracongelado à bordo, o que mantém o seu sabor e suculência. Importado diretamente da Patagônia, o camarão argentino tem sabor adocicado e pode ser comparado ao camarão rosa brasileiro.",
+    "price": 99.90,
+    "imageSrc": "/produtos/2.png",
+    "destaque": false
+  },
+  {
+    "id": 3,
+    "title": "Cubos de Salmão Fresco",
+    "description": "Cubos de salmão fresco, ideais para sushi, sashimi e pratos criativos. Sabor suave e textura macia para uma experiência gastronômica excepcional.",
+    "price": 80.00,
+    "imageSrc": "/produtos/3.png",
+    "destaque": false
+  },
+  {
+    "id": 4,
+    "title": "Tentáculos de Polvo Espanhol",
+    "description": "Tentáculos de polvo espanhol, conhecidos por sua textura firme e sabor intenso. Perfeitos para pratos sofisticados e culinária mediterrânea.",
+    "price": 199.90,
+    "imageSrc": "/produtos/4.png",
+    "destaque": false
+  },
+  {
+    "id": 5,
+    "title": "Centolla Inteira",
+    "description": "Centolla Inteira ou King Crab – congelada e pré-cozida. Crustáceo muito valorizado pela alta gastronomia mundial. Seu sabor é um meio-termo entre o Caranguejo e a Lagosta, um pouco adocicado e ao mesmo tempo suave.",
+    "price": 869.00,
+    "imageSrc": "/produtos/5.png",
+    "destaque": false
+  },
+  {
+    "id": 6,
+    "title": "Mix de Frutos do Mar",
+    "description": "Combo especial com uma seleção variada de frutos do mar frescos. Perfeito para criar pratos únicos e surpreender seus convidados.",
+    "price": 74.90,
+    "imageSrc": "/produtos/6.png",
+    "destaque": false
+  },
+  {
+    "id": 7,
+    "title": "Ovas Masago Orange",
+    "description": "Ovas de salmão do Pacífico, conhecidas por seu sabor único e textura cremosa. Perfeitas para pratos de sushi e sashimi.",
+    "price": 239.00,
+    "imageSrc": "/produtos/7.png",
+    "destaque": false
+  },
+    {
+    "id": 8,
+    "title": "Ovas de Salmão Ikura",
+    "description": "Ovas de salmão do Pacífico, conhecidas por seu sabor único e textura cremosa. Perfeitas para pratos de sushi e sashimi.",
+    "price": 520.00,
+    "imageSrc": "/produtos/8.png",
+    "destaque": false
+  },
+  {
+    "id": 9,
+    "title": "Mexilhão Inteiros",
+    "description": "Mexilhões inteiros frescos, ideais para pratos de mariscos e saladas. Sabor delicioso e textura firme para uma experiência gastronômica excepcional.",
+    "price": 24.00,
+    "imageSrc": "/produtos/9.png",
+    "destaque": false
+  },
+  {
+    "id": 10,
+    "title":"Cauda de Lagosta",
+    "description": "Cauda de lagosta fresca, ideal para pratos gourmet e eventos especiais. Sabor intenso e textura suave para uma experiência gastronômica inesquecível.",
+    "price": 140.00,
+    "imageSrc": "/produtos/10.png",
+    "destaque": false
+  },
+  {
+    "id": 11,
+    "title": "Hambúrguer de Salmão",
+    "description": "Hambúrguer de salmão fresco, ideal para uma refeição saborosa e nutritiva. Perfeito para quem busca uma opção saudável e deliciosa.",
+    "price": 45.00,
+    "imageSrc": "/produtos/11.png",
+    "destaque": false
+  },
+  {
+    "id": 12,
+    "title": "Enguia Unagui Espalmada",
+    "description":"Enguia Unagui Espalmada fresca, ideal para pratos tradicionais e culinária regional.",
+    "price": 180.00,
+    "imageSrc": "/produtos/12.png",
+    "destaque": false
+  },
+  {
+    "id": 13,
+    "title": "Cubos de Atum Fresco",
+    "description": "Cubos de atum fresco, ideais para sushi, sashimi e pratos criativos. Sabor suave e textura macia para uma experiência gastronômica excepcional.",
+    "price": 50.00,
+    "imageSrc": "/produtos/13.png",
+    "destaque": false
+  }
+]
